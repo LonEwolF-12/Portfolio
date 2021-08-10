@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+        <div class="logo"><a href="#">Port<span>folio.</span></a></div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Extra-curricular</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!--home section start-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Akshay Shrivastava</div>
+                <div class="text-3">And I'm a<span> Data Scientist</span></div>
+            </div>
+        </div>
+    </section>
+    <p class='About'>
+        I am a dedicated and passionate junior student at LNMIIT, Jaipur, anticipating a data scientist role and aimimg to put knowledge of Machine learning and deep learning which would faciliate the live of people for good.The project aims to create ML models to predict the ‘Chance of Admit’ with 
+        minimum MSE and RMSE and maximum R-Square score by building the 
+        following models: Multiple linear regressor (MLR), Random Forest Regressor 
+        (RFR) , MLR with PCA and RFR with PCA. 
+        In MLR, we used Backward elimination to remove those features that do not have 
+        a significant effect on the dependent variable or prediction of output.
+        Principal Component Analysis is an unsupervised learning algorithm that is used 
+        for the dimensionality reduction in machine learning. It is a statistical process that 
+        converts the observations of correlated features into a set of linearly uncorrelated 
+        features with the help of orthogonal transformation. These new transformed 
+        features are called the Principal Components. It is one of the popular tools that 
+        is used for exploratory data analysis and predictive modelling. It is a technique to 
+        draw strong patterns from the given dataset by reducing the variances.
+        Finally, we plot a graph between actual and predicted value for all the four 
+        models.Random Forest is a popular machine learning algorithm that belongs to 
+        the supervised learning technique. It can be used for both Classification and 
+        Regression problems in ML. It is based on the concept of ensemble 
+        learning, which is a process of combining multiple classifiers to solve a 
+        complex problem and to improve the performance of the model.
+        Instead of relying on one decision tree, the random forest takes the 
+        prediction from each tree and based on the majority votes of predictions, and 
+        it predicts the final output. The greater number of trees in the forest leads to 
+        higher accuracy and prevents the problem of overfittingIn theory the PCA makes no difference, but in practice it improves rate of 
+        training, simplifies the required neural structure to represent the data, and 
+        results in systems that better characterize the "intermediate structure" of the 
+        data instead of having to account for multiple scales - it is more accurate.
+        From the above MLR and RFR model, we obtain the mean squared error of 
+        MLR and RFR are, 0.005266386297364336 and 0.003102546549999995
+        respectively. So, from the data, we conclude that, RFR model of the given 
+        dataset give more optimized results than MLR model.
+        Thus, from all four model, we can conclude that, RFR with PCA gives us 
+        the most accurate results than any other model.
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
