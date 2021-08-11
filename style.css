@@ -87,3 +87,15 @@
 .About{
     font-size: 50px;
 }
+
+
+/* about section styling */
+
+.about{
+    font-family: 'poppins';
+    background: yellow;
+}
+
+.about .title{
+    text-align: center;
+}
